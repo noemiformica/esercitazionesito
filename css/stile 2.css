@@ -1,0 +1,279 @@
+
+body {
+    background-color: #769a74;
+ margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+nav h1 {
+    color: #174614;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: -30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+
+}
+
+nav a:hover {
+
+    color: #174614
+
+}
+
+
+
+footer {
+    max-width: 800px;
+    margin: auto;
+}
+header {
+    background-color: #638b5f ; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+main section.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+
+}
+
+main section.intro h1 {
+    color: black;
+    font-size: 48px;
+    text-align:left;
+    position: absolute;
+    right: 30px;
+    font-family:ad;
+    
+}
+ main section.intro h2 {
+    color: #174614;
+    font-size: 32px;
+    text-align: left;
+    position: absolute;
+    right: 30px;
+    top: 150px;
+ }
+ main section.intro img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: absolute;
+    right: -10px;
+bottom: 10px;
+    
+ }
+ main section.intro h3 {
+font-size: 32px;
+text-align: left;
+position: absolute;
+left: 30px;
+top: 300px;
+ }
+ span {
+font-style: italic;
+ }
+    
+ main section.intro p{
+    font-size: 24px;
+ position: relative;
+    left: 30px;
+    top: 320px;
+ } 
+ main section.centro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin: 0;
+ }
+  main section.centro img {
+     width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: relative;
+    left: 10px;
+   bottom: -600px;
+  }
+  main section.centro h1 {
+    font-size: 32px;
+    position: relative;
+    bottom: -480px;
+    left: 200px;
+  }
+  main section.centro p {
+    font-size: 24px;
+ position: relative;
+ left: 200px;
+ bottom: -60px;
+ margin-right: -60px;
+ text-align:left ;
+
+  }
+  main section.india {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin: 0;
+  }
+main section.india img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: relative;
+    left: 300px;
+   bottom: -380px;
+}
+main section.india h1 {
+    font-size: 32px;
+    position: relative;
+    bottom: -150px;
+    left: 1100px;
+}
+main section.india p {
+    font-size: 24px;
+    position: relative;
+    left: 550px;
+   top: -270px;
+
+}
+main section.sotto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin: 0;
+}
+main section.sotto h1{
+    font-size: 32px;
+    position: relative;
+    bottom: -100px;
+    left: 200px;
+}
+main section.sotto img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: relative;
+    left: -800px;
+   bottom: -330px;
+}
+main section.sotto p {
+    font-size: 24px;
+ position: relative;
+ left: 200px;
+ bottom: 330px;
+ margin-right: -60px;
+ text-align:left ;
+}
+main section.canada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin: 0;
+}
+main section.canada img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: relative;
+    left: 300px;
+   top: -20px;
+}
+main section.canada h1 {
+    font-size: 32px;
+    position: relative;
+    top: -200px;
+    left: 1100px;
+}
+main section.canada p {
+    font-size: 24px;
+    position: relative;
+    left: 610px;
+   top: -620px;
+}
+main section.conclusioni {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin: 0;
+}
+main section.conclusioni h1 {
+    font-size: 32px;
+    position: relative;
+    top: -150px;
+   left: 700px;
+}
+main section.conclusioni p {
+    font-size: 24px;
+    position: relative;
+    top: -100px;
+    left: -350px;
+}
+
+main section.conclusioni h3 {
+    font-size: 32px;
+    position: relative;
+    top: -200px;
+    left: 900px;
+}
+footer {
+    background-color: #174614;
+    max-width: 100%;
+    height: 300px;
+   
+}
+footer h1 {
+    color: #769a74;
+    font-size: 48px;
+    position: relative;
+    bottom: -20px;
+    text-align: center;
+    
+}
+
+
+footer ul {
+width: 500px;
+height: 500px;
+position: relative;
+top: -20px;
+text-align: center;
+object-fit: cover;
+display: flex;
+left: 450px;
+}
+head,main,footer {
+    max-width: auto;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+   
